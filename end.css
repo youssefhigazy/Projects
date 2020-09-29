@@ -1,0 +1,44 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(to right,rgb(105, 150, 180), rgba(61, 148, 151, 0.712), rgba(20, 161, 196, 0.808));
+    font: 62.5%;
+}
+
+button {
+    color: #fff !important;
+    padding: 10px 15px 10px 15px !important;
+
+}
+
+.fillForm{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.buttons{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 5px;
+}
+
+.finalScore{
+    font-weight: 800;
+}
+
+.save, .button1{
+    margin-bottom: 10px;
+}
+
+input:hover{
+    box-shadow: 5px 3px 10px rgb(133, 121, 121);
+}
+
+input{
+    overflow: hidden;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <main id="main">
+        <div class="info">
+            <div class="actual-question">
+                <span>Question: </span><span class="number"></span>
+            </div>
+            <div class="actual-score">
+                <span>Score </span><br><span class="src">0</span>
+            </div>
+            <div class="progressBar">
+                <div class="progress-text">
+                    <p>Progress</p>
+                </div>
+                <div class="actual-bar">
+                    <div class="fullBar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="question">
+            <p>Who is the fastest soccer player?</p>
+        </div>
+        <div class="choices container">
+            <div class="exact-choices part1">
+                <p class="choice">A</p>
+                <p class="choice-number" data-number="1">Ronaldo</p>
+            </div>
+            <div class="exact-choices part2">
+                <p class="choice">B</p>
+                <p class="choice-number" data-number="2">Messi</p>
+            </div>
+            <div class="exact-choices part3">
+                <p class="choice">C</p>
+                <p class="choice-number" data-number="3">Salah</p>
+            </div>
+            <div class="exact-choices part4">
+                <p class="choice">D</p>
+                <p class="choice-number" data-number="4">Greziman</p>
+            </div>
+        </div>
+    </main>
+    <script src="game.js"></script>
+</body>
+</html>
