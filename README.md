@@ -6,4 +6,4 @@ The questions and the answers are driven from an API which provides different qu
 
 The UI is based on simplicity, as well as interactivity and self-explainatory for all the users.
 
-All scores for the quiz including the old scores are being saved in the local storage which allow the user to compare between his old scores with the new one.
+All scores for the quiz scores (including the old scores) are being saved in the local storage which allow the user to compare between his old scores with the new one.
